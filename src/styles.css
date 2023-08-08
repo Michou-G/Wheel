@@ -157,3 +157,28 @@ body {
   transform: rotate(var(--segment-angle, 0deg));
 }
 
+.wheel {
+  width: 300px;
+  height: 300px;
+  border: 5px solid #333;
+  border-radius: 50%;
+  position: relative;
+  margin: 20px auto;
+}
+
+.segment {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-color: #ccc;
+  top: 50%;
+  left: 50%;
+  transform-origin: 100%;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
